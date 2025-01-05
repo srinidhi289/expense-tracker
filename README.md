@@ -112,9 +112,4 @@ We welcome contributions from the community! To contribute:
 5. Create a pull request on GitHub.
 
 
-## Contact
 
-For any questions or feedback, please contact:
-- Your Name: [yourname@example.com](mailto:yourname@example.com)
-- GitHub: [github.com/yourusername](https://github.com/yourusername)
-" > README.md
