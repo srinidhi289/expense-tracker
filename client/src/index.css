@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.content {
+  height: 100vh;
+}
+
+.resgister-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+/* transaction page */
+.filters {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px; /* Fixed padding syntax */
+  box-shadow: 0 0 3px gray;
+  margin-bottom: 20px; /* Add margin to separate from content */
+}
+
+/* transaction page */
+
+/* antd icons */
+.switch-icons {
+  border: 1px solid rgba(0, 0, 0, 0.677);
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+
+.anticon svg {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.active-icon {
+  color: black;
+}
+
+.inactive-icon {
+  color: grey;
+}
+
+/* index.css */
+.login-page, .register-page {
+  background: url('https://www.expensya.com/media/3yjeswcf/light-sand-background-4.jpg?rmode=max&width=576&height=0&rnd=133207993865730000') no-repeat center center;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.page-heading {
+  font-size: 3rem;
+  color: black;;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.login-form, .register-form {
+  background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.login-form h1, .register-form h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.login-form .ant-form-item, .register-form .ant-form-item {
+  margin-bottom: 20px;
+}
+
+.login-form .btn-primary, .register-form .btn-primary {
+  background-color: #4caf50;
+  border-color: #4caf50;
+  color: white;
+  width: 100%;
+}
+
+.login-form .btn-primary:hover, .register-form .btn-primary:hover {
+  background-color: #45a049;
+  border-color: #45a049;
+}
+
+.login-form .link, .register-form .link {
+  text-align: center;
+  display: block;
+  margin-top: 10px;
+  color: #1890ff;
+}
+
+.login-form .link:hover, .register-form .link:hover {
+  color: #45a049;
+}
